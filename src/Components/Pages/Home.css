@@ -1,0 +1,45 @@
+.hero-container {
+  width: 100%;
+  min-height: 100vh;
+  /* height: 817px; */
+  background: linear-gradient(rgba(30, 30, 30, 0.6), rgba(30, 30, 30, 0.6)),
+    url(../../assets/image/hero-img.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ position: relative;
+ line-height: 1.1;
+ text-wrap: wrap;
+}
+
+.hero-text-box {
+   max-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    /* font-weight: 700; */
+}
+
+.hero-text-box  h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.hero-text-box p {
+  
+  margin-top: 1rem;
+  
+ text-align: center; 
+ align-items: center;
+ line-height: 1.2;
+
+ width: 85%;
+ margin-left: 4rem;
+ 
+}
+ 
+
