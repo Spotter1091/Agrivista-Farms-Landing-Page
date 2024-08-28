@@ -185,15 +185,32 @@ export const Home = () => {
               Learn More
             </a>
 
-          
             <a href="#" className="learn-mre-btn">
               Contact Us
             </a>
-          
           </div>
         </div>
       </section>
-  
+
+      <section className="benefits-section">
+        <div className="benefits-content">
+          <h1>The Benefits of Choosing Our Expertise</h1>
+          <p>
+            Li Europan lingues es membres del sam familie. Lor separat
+            existentie es un myth. Por scientie, musica, sport etc, litot Europa
+            usa li sam vocabular.
+          </p>
+          <button className="cta-button">Click Here</button>
+        </div>
+        <div className="right-content">
+          <div className="icon-card">
+            <div className="icon">Icon 1</div>
+            <div className="icon">Icon 2</div>
+            <div className="icon">Icon 3</div>
+            <div className="icon">Icon 4</div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
