@@ -65,7 +65,14 @@ nav ul li .btn-signup{
 }
 
 
-@media (max-width: 1000px) {
+.hamburger {
+     display: none; 
+    cursor: pointer;
+}
+
+
+
+/* @media (max-width: 1000px) {
 
     
 }
@@ -113,8 +120,34 @@ nav ul li .btn-signup{
     font-weight: 600;
 }
 
+} */
+
+
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 20px 0;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    nav li.btn-login, li.btn-signup {
+        display: none; /* Hide buttons on mobile */
+    }
 }
-
-
-
-
+}
